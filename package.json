@@ -1,0 +1,25 @@
+{
+  "name": "noteapi",
+  "version": "1.0.0",
+  "description": "Notes API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.12.0",
+    "mongoose": "^6.13.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
